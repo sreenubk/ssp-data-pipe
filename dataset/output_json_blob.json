@@ -1,0 +1,44 @@
+{
+	"name": "output_json_blob",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "ssp-user.json",
+				"container": "output"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"email": {
+					"type": "string"
+				},
+				"orgname": {
+					"type": "null"
+				},
+				"firstname": {
+					"type": "string"
+				},
+				"password": {
+					"type": "string"
+				},
+				"username": {
+					"type": "string"
+				},
+				"rolename": {
+					"type": "string"
+				},
+				"lastname": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
