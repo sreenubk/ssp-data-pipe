@@ -1,0 +1,9 @@
+{
+	"name": "ssp-et-df-dev",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "860e75f9-b85f-49fe-aabb-ea68d06e304d",
+		"tenantId": "ac98b5fb-0240-40d6-94e5-ec50eba739e9"
+	}
+}
